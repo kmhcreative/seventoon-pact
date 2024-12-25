@@ -1,0 +1,122 @@
+/* Categories as Chapters List Widget */
+.seventoon-chapter-list-item,
+.seventoon-series-list-item,
+.chapters-list .seventoon-chapter-list-item {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	padding: 0.5em 0;
+}
+	.chapters-list,
+	.chapters-list ul {
+		list-style: none;
+		margin-left: 0;
+	}
+	.chapters-list .seventoon-chapter-list-item {
+		border-bottom: none;
+	}
+	.chapters-list ul li .seventoon-chapter-list-item.seventoon-list-indent {
+		border: 0;
+		padding-left: 1.5rem;
+	}
+		.chapters-list .chapter-list-item-link {
+			box-shadow: none;
+		}
+		.chapters-list .chapter-list-item-link:hover,
+		.chapters-list .chapter-list-item-link:focus,
+		.chapters-list .chapter-list-item-link:focus-within {
+			box-shadow: none;
+		}
+			.chapters-list .chapter-list-item-link:hover .chapter-title,
+			.chapters-list .chapter-list-item-link:focus .chapter-title,
+			.chapters-list .chapter-list-item-link:focus-within .chapter-title {
+				text-decoration: underline;
+			}
+
+
+.seventoon-chapter-thumbnail,
+.seventoon-series-thumbnail {
+	width: 50px;
+	height: 50px;
+	box-shadow: none !important;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+/* SevenToon Promo Slider */
+.seventoon_promos_wrapper {
+	position: relative;
+	width: 100%;
+	height: 346px;
+	overflow: hidden;
+}
+	.seventoon_promos_wrapper .slidenav {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 50px;
+		z-index: 100;
+		box-shadow: none !important;
+	}
+		.seventoon_promos_wrapper .slidenav::before {
+			content: '';
+			font-family: dashicons;
+			font-size: 48px;
+			line-height: 48px;
+			height: 50px;
+			width: 50px;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			margin-top: -25px;
+			text-align: center;
+			color: white;
+			text-shadow: 2px 0 0 black, -2px 0 0 black;
+		}
+		.seventoon_promos_wrapper .slidenav:hover,
+		.seventoon_promos_wrapper .slidenav:focus,
+		.seventoon_promos_wrapper .slidenav:focus-within {
+			background-color: rgba(255,255,255,.25);
+		}
+	.seventoon_promos_wrapper .promo_back {
+		left: 0;
+	}
+		.seventoon_promos_wrapper .slidenav.promo_back::before {
+			content: '\f341';
+		}
+	.seventoon_promos_wrapper .slide {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%;
+		height: 100%;
+		display: none;
+		opacity: 0;
+		transition-duration: 1s;
+	}
+		.seventoon_promos_wrapper .slide a {
+			position: absolute;
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.seventoon_promos_wrapper .slide img {
+			object-fit: contain;
+			height: 100%;
+			width:  100%;
+			max-width: 100%;
+			max-height: 100%;
+		}
+		.seventoon_promos_wrapper .slide:first-of-type {
+			display: block;
+			opacity: 1;
+		}
+	.seventoon_promos_wrapper .promo_next {
+		right: 0;
+	}
+		.seventoon_promos_wrapper .slidenav.promo_next::before {
+			content: '\f345';
+		}
+	.seventoon_promos_wrapper .slide.fadein {
+		opacity: 1;
+	}
+	.seventoon_promos_wrapper slide.fadeout {
+		opacity: 0;
+	}

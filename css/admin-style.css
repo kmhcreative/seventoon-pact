@@ -1,0 +1,151 @@
+.widget-content a.add_field_upload_media_widget {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+    background: #0073aa;
+    color: #fff;
+    padding: 0px 5px;
+    line-height: 20px;
+    vertical-align: sub;
+}
+.widget-content a.seventoon_upload_image_media {
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 5px;
+    background: #0073aa;
+    color: #fff !important;
+    padding: 5px 9px;
+    line-height: 20px;
+    vertical-align: initial;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h4.seventoon_heading-section {
+    text-align: center;
+    margin: 10px 0 15px;
+    background: rgb(245,245,245);
+    color: #0073aa;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.seventoon_admin_image_preview{
+    /*display: none;*/
+    width: 150px;
+    height: auto;
+    vertical-align: top;
+}
+.seventoon_admin_image_preview.active{
+    display: inline-block;
+}
+.seventoon_individual_image_section input.seventoon_image_input_field {
+    width: 100%;
+}
+
+.widget-content a.seventoon_remove_field_upload_media_widget {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.20em 0.60em !important;
+    font-size: 1em;
+    line-height: 1.4;
+    border: 1px solid #ff0000;
+    border-radius: 100%;
+    color: #ff0000;
+    text-decoration: none;
+    transition: all .3s;
+    text-align: center;
+    background-color: #fff;
+}
+td.drag-handler {
+    width: 4.4em;
+    padding: 0 8px;
+    cursor: move;
+    width: 50px;
+    text-align: center;
+}
+	.seventoon_drag_Section {
+		font-size: 18px;
+		letter-spacing: -3px;
+	}
+td.image_thumbnail {
+	width: 150px;
+}	
+.recipe-table__cell{
+    vertical-align: middle;
+    padding: 3px 5px;
+    width: 1.4em;
+}
+
+.widget-content a.seventoon_remove_field_upload_media_widget:hover {
+    background: #ff0000;
+    color: #fff;
+}
+
+table.seventoon_multi_image_slider_table_wrapper {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    width: 100%;
+
+}
+table.seventoon_multi_image_slider_table_wrapper tr{
+ width: 100%;   
+}
+
+.seventoon_slider_options_section {
+    display: block;
+    width: 100%;
+    padding: 10px 0 0;
+}
+.seventoon_slider_options_section label,
+.seventoon_imagefit_options_section label {
+    font-size: 13px;
+    text-transform: capitalize;
+    display: inline-block;
+    min-width: 120px;
+    font-weight: 500;
+    padding: 5px 0 5px 0;
+}
+.seventoon_slider_options_section input[type="radio"] {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 5px 0 0px;
+}
+.seventoon_slider_options_section select {
+    width: 100%;
+    margin-top: 6px;
+}
+.seventoon_multi_image_slider_setting {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 15px 0;
+}
+.seventoon_multi_image_slider_setting h4 {
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 !important;
+}
+.seventoon_multi_image_slider_table_wrapper .seventoon_individual_image_section span.drag_Section {
+    vertical-align: initial;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+html .widget-content .seventoon_remove_field_upload_media_widget{
+    margin: 0;
+    display: block;
+    text-align: center;
+    padding: 17px 5px;
+}
+
+.seventoon_individual_image_section {
+    box-shadow: 0 0px 1px black;
+}
+span.seventoon_image_new_tab_label {
+    font-size: 13px;
+}
+
+tr .image_td_fields{
+    padding: 13px;
+}
